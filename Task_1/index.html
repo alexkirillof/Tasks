@@ -21,7 +21,19 @@ let personalMovieDB ={
 
 };
 
+
+let movieName = prompt("Один из последних просмотренных фильмов:?"),
+movieRange = +prompt("На сколько оцените его?");
+
+
+personalMovieDB.movies[movieName]=movieRange;
 console.log(personalMovieDB);
+
+
+
+
+
+
 
     </script>
 </body>
